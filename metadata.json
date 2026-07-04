@@ -1,0 +1,6 @@
+{
+  "name": "Pride Plumbing FL",
+  "description": "Professional residential, commercial, and 24/7 emergency plumbing services across Florida. Licensed and insured plumbers in Miami, Fort Lauderdale, Tampa, Orlando, and more.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
