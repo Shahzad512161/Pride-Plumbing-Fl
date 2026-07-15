@@ -1,4 +1,27 @@
-User-agent: *
+# Allow ChatGPT Search and User browsing
+User-agent: AI-SearchBot
 Allow: /
 
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+# Allow Perplexity AI
+User-agent: PerplexityBot
+Allow: /
+
+# Allow Anthropic (Claude)
+User-agent: ClaudeBot
+Allow: /
+
+# Allow Apple & Gemini's training/search bots
+User-agent: Applebot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+# Standard Sitemap declaration (helpful for all bots)
 Sitemap: https://pride-plumbing-fl.vercel.app/sitemap.xml
