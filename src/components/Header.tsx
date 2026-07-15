@@ -4,24 +4,21 @@
  */
 
 import React, { useState, useEffect } from 'react';
+import { useRouter } from 'next/router';
 import { Link, navigateTo } from './Link';
 import { LucideIcon } from './LucideIcon';
 import { BUSINESS_INFO } from '../data';
 
 export function Header() {
+  const router = useRouter();
+  const currentPath = router ? router.asPath.split('?')[0] : '/';
   const [isOpen, setIsOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
-  const [currentPath, setCurrentPath] = useState(window.location.pathname);
 
-  // Keep track of pathname changes
+  // Close mobile menu on navigate
   useEffect(() => {
-    const handleLocationChange = () => {
-      setCurrentPath(window.location.pathname);
-      setIsOpen(false); // Close mobile menu on navigate
-    };
-    window.addEventListener('popstate', handleLocationChange);
-    return () => window.removeEventListener('popstate', handleLocationChange);
-  }, []);
+    setIsOpen(false);
+  }, [currentPath]);
 
   // Track scroll position for subtle box-shadow / backdrop effect
   useEffect(() => {

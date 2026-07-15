@@ -4,13 +4,14 @@
  */
 
 import React from 'react';
+import NextLink from 'next/link';
+import { useRouter } from 'next/router';
 
-// Let's create a custom event for client-side routing
+// Let's create a custom event/helper for routing
 export function navigateTo(path: string) {
-  window.history.pushState({}, '', path);
-  const navEvent = new PopStateEvent('popstate');
-  window.dispatchEvent(navEvent);
-  window.scrollTo({ top: 0, behavior: 'instant' });
+  if (typeof window !== 'undefined') {
+    window.location.href = path;
+  }
 }
 
 interface LinkProps extends React.AnchorHTMLAttributes<HTMLAnchorElement> {
@@ -21,24 +22,17 @@ interface LinkProps extends React.AnchorHTMLAttributes<HTMLAnchorElement> {
 }
 
 export function Link({ to, children, className = '', ...props }: LinkProps) {
-  const handleClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
-    // Only handle left clicks, no modifier keys
-    if (e.button === 0 && !e.ctrlKey && !e.metaKey && !e.shiftKey && !e.altKey) {
-      e.preventDefault();
-      navigateTo(to);
-    }
-  };
-
-  const isActive = window.location.pathname === to;
+  const router = useRouter();
+  const isActive = router ? router.pathname === to : false;
 
   return (
-    <a
+    <NextLink
       href={to}
-      onClick={handleClick}
       className={`${className} ${isActive ? 'text-blue-600 font-semibold' : ''}`}
       {...props}
     >
       {children}
-    </a>
+    </NextLink>
   );
 }
+
