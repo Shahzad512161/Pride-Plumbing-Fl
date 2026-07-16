@@ -38,7 +38,7 @@ const SERVICE_CATEGORIES = [
 export default function PlumbingPage() {
   const schemaCrumbs = [
     { name: 'Home', url: 'https://prideplumbingfl.com' },
-    { name: 'Plumbing', url: 'https://prideplumbingfl.com/plumbing' }
+    { name: 'Plumbing', url: 'https://pride-plumbing-fl.vercel.app/plumbing' }
   ];
 
   return (

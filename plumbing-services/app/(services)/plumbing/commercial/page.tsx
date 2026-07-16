@@ -21,8 +21,8 @@ const COMM_SERVICES = [
 export default function CommercialPlumbingPage() {
   const schemaCrumbs = [
     { name: 'Home', url: 'https://prideplumbingfl.com' },
-    { name: 'Plumbing', url: 'https://prideplumbingfl.com/plumbing' },
-    { name: 'Commercial', url: 'https://prideplumbingfl.com/plumbing/commercial' }
+    { name: 'Plumbing', url: 'https://pride-plumbing-fl.vercel.app/plumbing' },
+    { name: 'Commercial', url: 'https://pride-plumbing-fl.vercel.app/plumbing/commercial' }
   ];
 
   return (

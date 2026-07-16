@@ -21,8 +21,8 @@ const RES_SERVICES = [
 export default function ResidentialPlumbingPage() {
   const schemaCrumbs = [
     { name: 'Home', url: 'https://prideplumbingfl.com' },
-    { name: 'Plumbing', url: 'https://prideplumbingfl.com/plumbing' },
-    { name: 'Residential', url: 'https://prideplumbingfl.com/plumbing/residential' }
+    { name: 'Plumbing', url: 'https://pride-plumbing-fl.vercel.app/plumbing' },
+    { name: 'Residential', url: 'https://pride-plumbing-fl.vercel.app/plumbing/residential' }
   ];
 
   return (

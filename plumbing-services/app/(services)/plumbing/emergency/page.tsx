@@ -21,8 +21,8 @@ const EMER_SERVICES = [
 export default function EmergencyPlumbingPage() {
   const schemaCrumbs = [
     { name: 'Home', url: 'https://prideplumbingfl.com' },
-    { name: 'Plumbing', url: 'https://prideplumbingfl.com/plumbing' },
-    { name: 'Emergency', url: 'https://prideplumbingfl.com/plumbing/emergency' }
+    { name: 'Plumbing', url: 'https://pride-plumbing-fl.vercel.app/plumbing' },
+    { name: 'Emergency', url: 'https://pride-plumbing-fl.vercel.app/plumbing/emergency' }
   ];
 
   return (
