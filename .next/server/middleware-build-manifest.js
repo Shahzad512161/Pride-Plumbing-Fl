@@ -1,0 +1,82 @@
+globalThis.__BUILD_MANIFEST = {
+  "pages": {
+    "/": [
+      "static/chunks/2xzgo62pv5i6w.js",
+      "static/chunks/12478bo1zerrt.js",
+      "static/chunks/1kso93b6wykta.js",
+      "static/chunks/2yeoaszt2sjy1.js",
+      "static/chunks/turbopack-2tdn6sc24wqsp.js"
+    ],
+    "/_app": [
+      "static/chunks/17-u-r2udey5i.js",
+      "static/chunks/1kso93b6wykta.js",
+      "static/chunks/2yeoaszt2sjy1.js",
+      "static/chunks/2vbz7k23h4s9u.js",
+      "static/chunks/2sclu4yls-2kj.css",
+      "static/chunks/turbopack-34x08pvza8wy_.js"
+    ],
+    "/_error": [
+      "static/chunks/1uvnzno5f3p7o.js",
+      "static/chunks/2yeoaszt2sjy1.js",
+      "static/chunks/1kso93b6wykta.js",
+      "static/chunks/turbopack-2i-dj6dnw1m3m.js"
+    ],
+    "/contact": [
+      "static/chunks/3p0a365_1ls8m.js",
+      "static/chunks/09qux5ij-rec4.js",
+      "static/chunks/1kso93b6wykta.js",
+      "static/chunks/2yeoaszt2sjy1.js",
+      "static/chunks/turbopack-3qk20yposertn.js"
+    ],
+    "/plumbing": [
+      "static/chunks/3z8wx-t6n-8-5.js",
+      "static/chunks/09qux5ij-rec4.js",
+      "static/chunks/1kso93b6wykta.js",
+      "static/chunks/2yeoaszt2sjy1.js",
+      "static/chunks/turbopack-1ov5kk-srd1la.js"
+    ],
+    "/plumbing/commercial": [
+      "static/chunks/16f2jd_72j11r.js",
+      "static/chunks/09qux5ij-rec4.js",
+      "static/chunks/1kso93b6wykta.js",
+      "static/chunks/2yeoaszt2sjy1.js",
+      "static/chunks/turbopack-3jvlc31qnl9yn.js"
+    ],
+    "/plumbing/emergency": [
+      "static/chunks/1i72g8zpd3b04.js",
+      "static/chunks/09qux5ij-rec4.js",
+      "static/chunks/1kso93b6wykta.js",
+      "static/chunks/2yeoaszt2sjy1.js",
+      "static/chunks/turbopack-2exmdbvzamd16.js"
+    ],
+    "/plumbing/residential": [
+      "static/chunks/24x6z5b6mrjhk.js",
+      "static/chunks/09qux5ij-rec4.js",
+      "static/chunks/1kso93b6wykta.js",
+      "static/chunks/2yeoaszt2sjy1.js",
+      "static/chunks/turbopack-2n3dv5zta9uhr.js"
+    ],
+    "/privacy": [
+      "static/chunks/2qgk4w8_ytgem.js",
+      "static/chunks/09qux5ij-rec4.js",
+      "static/chunks/1kso93b6wykta.js",
+      "static/chunks/2yeoaszt2sjy1.js",
+      "static/chunks/turbopack-0qq6p8tzp86m3.js"
+    ],
+    "/terms": [
+      "static/chunks/0v4g4cxupt05h.js",
+      "static/chunks/09qux5ij-rec4.js",
+      "static/chunks/1kso93b6wykta.js",
+      "static/chunks/2yeoaszt2sjy1.js",
+      "static/chunks/turbopack-0xgk8u7z6k1xp.js"
+    ]
+  },
+  "devFiles": [],
+  "polyfillFiles": [],
+  "lowPriorityFiles": [
+    "static/Iy1EEaeajUSIU7Ixkfjyb/_buildManifest.js",
+    "static/Iy1EEaeajUSIU7Ixkfjyb/_ssgManifest.js",
+    "static/Iy1EEaeajUSIU7Ixkfjyb/_clientMiddlewareManifest.js"
+  ],
+  "rootMainFiles": []
+};

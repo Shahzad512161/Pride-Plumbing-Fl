@@ -1,0 +1,17 @@
+{
+  "devFiles": [],
+  "ampDevFiles": [],
+  "polyfillFiles": [],
+  "lowPriorityFiles": [],
+  "rootMainFiles": [],
+  "pages": {
+    "/plumbing/residential": [
+      "static/chunks/24x6z5b6mrjhk.js",
+      "static/chunks/09qux5ij-rec4.js",
+      "static/chunks/1kso93b6wykta.js",
+      "static/chunks/2yeoaszt2sjy1.js",
+      "static/chunks/turbopack-2n3dv5zta9uhr.js"
+    ]
+  },
+  "ampFirstPages": []
+}

@@ -1,0 +1,14 @@
+{
+  "/": "pages/index.html",
+  "/_app": "pages/_app.js",
+  "/_document": "pages/_document.js",
+  "/_error": "pages/_error.js",
+  "/contact": "pages/contact.html",
+  "/plumbing": "pages/plumbing.html",
+  "/plumbing/commercial": "pages/plumbing/commercial.html",
+  "/plumbing/emergency": "pages/plumbing/emergency.html",
+  "/plumbing/residential": "pages/plumbing/residential.html",
+  "/privacy": "pages/privacy.html",
+  "/terms": "pages/terms.html",
+  "/404": "pages/404.html"
+}
